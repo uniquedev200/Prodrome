@@ -1,0 +1,110 @@
+# ==========================================
+# Secrets & Sensitive Environment Variables
+# ==========================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Credentials, Keys, & Certificates
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+id_rsa
+id_rsa*
+id_ed25519
+id_ed25519*
+*credentials*
+*secret*
+!*secret*.py
+
+# ==========================================
+# Databases & Local Storage
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+storage/
+
+# ==========================================
+# Python Bytecode & Package Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Testing, Coverage & Benchmarks
+# ==========================================
+.pytest_cache/
+.benchmarks/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==========================================
+# Logs & Runtime State
+# ==========================================
+*.log
+logs/
+*.pid
+temp/
+tmp/
+
+# ==========================================
+# IDE & Operating System Artifacts
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
